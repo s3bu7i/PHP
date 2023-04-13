@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+	<form method="post" action="calculator.php">
+		<label for="num1">1-ci ədəd:</label>
+		<input type="number" id="num1" name="num1" required><br><br>
+
+		<label for="num2">2-ci ədəd:</label>
+		<input type="number" id="num2" name="num2" required><br><br>
+
+		<label for="operator">Əməliyyat:</label>
+		<select id="operator" name="operator">
+			<option value="+">Toplama</option>
+			<option value="-">Çıxma</option>
+			<option value="*">Vurma</option>
+			<option value="/">Bölmə</option>
+		</select><br><br>
+
+		<button type="submit" name="submit">Hesabla</button>
+	</form>
+</body>
+</html>
